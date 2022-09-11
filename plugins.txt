@@ -1,0 +1,2 @@
+maven-plugin
+email-ext:latest
