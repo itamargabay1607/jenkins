@@ -1,7 +1,9 @@
-FROM jenkins/jenkins:alpine
+FROM jenkins/jenkins:latest
 
 ENV JENKINS_USER admin
 ENV JENKINS_PASS admin
+
+EXPOSE 8080
 
 # Skip initial setup
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
